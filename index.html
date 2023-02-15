@@ -3,12 +3,66 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="hw04.css">
+
+    <!-- Include D3 library in head -->
+    <!-- Note: we use D3 v6 -->
+    <script src='js/d3.v6.1.1/d3.min.js'></script>
+
+    <title>hw-04</title>
 </head>
 
 
 <body>
+    <h1>hw-04: Event Handling</h1>
+    <div id="left"></div>
+    <div id="right">
+        <form method="get">
+            <p>Last point clicked:</p>
+            <div id="updatePos">(0, 0)</div>
+            <br>
+            <label for="x_pos">Select the x coordinate for the point you want to add.</label>
+                <select name="x_pos" id="x_pos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="0">9</option>
+                </select>
+            <p></p>
+            <label for="y_pos">Select the y coordinate for the point you want to add.</label>
+                <select name="y_pos" id="y_pos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="0">9</option>
+                </select>
+            </form>
+
+        <button type="submit" id="submitButton" onclick="updateEntry()">Add point</button>
+    </div>
 
 
+    <div>
+    <h2>Acknowledgement</h2>
+        <li><a href = https://www.educative.io/answers/how-to-make-side-by-side-divs-in-html>How to make side by side divs in HTML</a></li>
+        <li><a href = https://www.educative.io/answers/how-to-create-a-scatter-plot-using-d3>How to create a scatter plot using D3</a></li>
+        <li><a href = https://stackoverflow.com/questions/25418333/how-to-draw-straight-line-in-d3-js-horizontally-and-vertically>How to draw a line in d3.js</a></li>
+        <li><a href = https://www.w3schools.com/cssref/sel_hover.php>CSS :hover Selector</a></li>
+        <li><a href = https://www.w3schools.com/tags/att_button_type.asp>HTML button type Attribute</a></li>
+        <li><a href = https://www.geeksforgeeks.org/how-to-get-selected-value-in-dropdown-list-using-javascript/>How to get selected value in dropdown list using JS</a></li>
+    </div>
+
+    <script src="js/hw04.js"></script>
 </body>
 
 </html>
