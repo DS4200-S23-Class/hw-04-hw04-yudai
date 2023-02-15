@@ -1,7 +1,7 @@
 # hw-04
 hw-04 - Event Handling
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: `[https://github.com/DS4200-S23-Class/hw-04-hw04-yudai]`
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
